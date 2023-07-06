@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+
+  <title>College Site</title>
+</head>
+
+<body style="background-color:rgb(253, 255, 255);">
+  
+  <section >
+    <nav class="navbar navbar-expand-lg py-3 navbar-light bg-transparent fixed-top">
+      <div class="container-fluid" >
+        <a class="navbar-brand" href="#">
+          <h2 style="color:#0D6EFD;">I Conquerors</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" >
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="./index.html">B.Tech</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="./collegelist.html">MBA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#features">Mca</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#pricing">Design </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  
+  <!-- HERO -->
+  <section>
+    <div class="hero vh-100 d-flex align-items-center" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto text-center">
+            <h1 class="display-4 text-white text-center fade-in" ><em>FIND OVER <span class="text-primary" font-style: italic;>2500+</span>
+              Colleges in India</em></h1><br>
+            <div class="container mt-4">
+              <input type="text" id="searchInput" class="form-control mt-4" placeholder="Search your college...">
+              <ul id="list" class="list-group mt-4" style="display: none;">
+                <li class="list-group-item">Jntua</li>
+                <li class="list-group-item">jntuh</li>
+                <li class="list-group-item">conquerors</li>
+                <li class="list-group-item">narayana</li>
+                <li class="list-group-item">sv university</li>
+                <li class="list-group-item">srisathya college</li>
+                <li class="list-group-item">kolkatha university</li>
+                <li class="list-group-item">deccan college of engineering</li>
+                <li class="list-group-item">hyderabad university</li>
+                <li class="list-group-item">bangalore university</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- //HERO -->
+ 
+  
+    <section class="mt-5" id="gallery">
+      <h1 class="text-center text-decoration-underline" style="color: #4D4D72;">LATEST NEWS</h1>
+      <div class="container mt-5">
+        <div class="row">
+        <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img src="./images/sa1.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-white">B.tech Colleges</h5>
+            <p class="card-text text-white">Convocation celebrates ‘minds that shape the world’ and the power of ideas</p>
+           <!-- <a href="https://collegedunia.com/btech/hyderabad-colleges" class="rounded-pill btn btn-outline-success btn-sm text-white">Visit</a> -->
+           <input class="rounded-pill btn btn-outline-success btn-sm text-white" type="button" value="Visit" onclick="window.open('https://collegedunia.com/btech/hyderabad-colleges')" />
+          </div>
+         </div>
+        </div>
+      <div class="col-lg-4 mb-4">
+      <div class="card">
+          <img src="./images/c2.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-white">Mba Colleges</h5>
+            <p class="card-text text-white">10 years of ‘creative possibilities’ showcased at Logan Birthday Bash</p>
+            <input class="rounded-pill btn btn-outline-success btn-sm text-white" type="button" value="Visit" onclick="window.open('https://collegedunia.com/btech/hyderabad-colleges')" />
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img src="./images/top-10-b-tech-colleges-in-hyderabad3.png" alt="" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title text-white">Mca Colleges</h5>
+            <p class="card-text text-white">Big Brains podcast: Providing basic health insurance for every American</p>
+            <input class="rounded-pill btn btn-outline-success btn-sm text-white" type="button" value="Visit" onclick="window.open('https://collegedunia.com/btech/hyderabad-colleges')" />
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <div class="text-center">
+      <!-- <button  href="" class="btn btn-outline-success btn-sm text-white " type="submit"> -->
+        <!-- <h6 class="button" style="font-size:20px;">see more news</h6></button> -->
+        <button class="button">See more news <i class="fa fa-angle-double-right"></i></button>
+    </div>
+  </section>
+  <section>
+    <div class="how-section1 mb-5">
+      <div class="row">
+          <div class="col-md-6 how-img">
+              <img src="./images/sv.png" class="rounded-circle img-fluid" alt=""/>
+          </div>
+          <div class="col-md-6">
+              <h4>Find rewarding projects</h4>
+                          <h4 class="subheading">GetLance is a great place to find more clients, and to run and grow your own freelance business.</h4>
+          <p class="text-muted">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations.
+                              Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work.
+                              More and more success. The greater the success you have on projects, the more likely you are to get hired by clients that use GetLance.</p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+              <h4>Get hired quickly</h4>
+                          <h4 class="subheading">GetLance makes it easy to connect with clients and begin doing great work.</h4>
+                          <p class="text-muted">Streamlined hiring. GetLance’s sophisticated algorithms highlight projects you’re a great fit for.
+                              Top Rated and Rising Talent programs. Enjoy higher visibility with the added status of prestigious programs.
+                              Do substantial work with top clients. GetLance pricing encourages freelancers to use GetLance for repeat relationships with their clients.</p>
+          </div>
+         
+          <div class="col-md-6 how-img">
+              <img src="./images/jntua logo.jpg" class="rounded-circle img-fluid" alt=""/>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6 how-img">
+               <img src="./images/mca.jpg" class="rounded-circle img-fluid" alt=""/>
+          </div>
+          <div class="col-md-6">
+              <h4>Work efficiently, effectively.</h4>
+                          <h4 class="subheading">With GetLance, you have the freedom and flexibility to control when, where, and how you work. Each project includes an online workspace shared by you and your client, allowing you to:</h4>
+                          <p class="text-muted">Send and receive files. Deliver digital assets in a secure environment.
+                              Share feedback in real time. Use GetLance Messages to communicate via text, chat, or video.
+                              Use our mobile app. Many features can be accessed on your mobile phone when on the go.</p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+              <h4>Get paid on time</h4>
+                          <h4 class="subheading">All projects include GetLance Payment Protection — helping ensure that you get paid for all work successfully completed through the freelancing website.</h4>
+                          <p class="text-muted">All invoices and payments happen through GetLance. Count on a simple and streamlined process.
+                              Hourly and fixed-price projects. For hourly work, submit timesheets through GetLance. For fixed-price jobs, set milestones and funds are released via GetLance escrow features.
+                              Multiple payment options. Choose a payment method that works best for you, from direct deposit or PayPal to wire transfer and more.</p>
+          </div>
+          <div class="col-md-6 how-img">
+              <img src="./images/mba.png" class="rounded-circle img-fluid" alt=""/>
+          </div>
+      </div>
+  </div>
+  </section>
+  <section></section>
+  
+
+  
+  
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #45526e"
+          >
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              About Companies
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Top Colleges</h6>
+            <p>
+              <a class="text-white">M.B.A</a>
+            </p>
+            <p>
+              <a class="text-white">B.Tech/B.E</a>
+            </p>
+            <p>
+              <a class="text-white">M.C.A</a>
+            </p>
+            <p>
+              <a class="text-white">B.C.A</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Top[ Exams]
+            </h6>
+            <p>
+              <a class="text-white">CAT</a>
+            </p>
+            <p>
+              <a class="text-white">Gate</a>
+            </p>
+            <p>
+              <a class="text-white">jee-Main</a>
+            </p>
+            <p>
+              <a class="text-white">Neet</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class=""></i> New York, NY 10012, US</p>
+            <p><i class=""></i> info@gmail.com</p>
+            <p><i class=""></i> + 01 234 567 88</p>
+            <p><i class=""></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3">
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/"
+                 >MDBootstrap.com</a
+                >
+            </div>
+            <!-- Copyright -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fa fa-lg fa-facebook align-middle"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fa fa-lg fa-twitter align-middle"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fa fa-lg fa-google-plus align-middle"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fa fa-lg fa-linkedin align-middle"></i
+              ></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+  <!-- Footer -->
+
+<!-- End of .container -->
+<!-- Remove the container if you want to extend the Footer to full width. -->
+
+
+  
+  
+
+<!-- End of .container -->
+  <script src="./index.js"></script>
+</body>
+
+
+</html>

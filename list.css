@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+/* College list css */ */
+
+* *,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  color: #fff !important;
+}
+
+.animated-bg {
+  background-image: url("./images/top-10-b-tech-colleges-in-hyderabad3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 1s;
+  height: 694px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.animated-bg:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.container {
+  padding: 3rem;
+  border-radius: 20px;
+  width: 700px;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-top p {
+  width: 400px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.carousel-item p {
+  width: 330px;
+  text-align: center;
+}
+
+.carousel-indicators {
+  bottom: -50px !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    padding: 2rem;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .text-top p {
+    width: 80%;
+  }
+}
+
+  .navbar .nav-link {
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.card-body {
+  text-align: justify;
+}
